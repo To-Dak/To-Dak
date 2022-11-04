@@ -1,0 +1,60 @@
+body{
+    background-color:#BBD7FE;
+}
+#main_section{
+    background-color: white;
+    width: 550px;
+}
+.list{
+    width: 500px;
+    list-style: circle inside;
+    background-color:white;
+    padding:15px;
+}
+.health{
+    display: inline-block;
+}
+.listSubmit{
+    width:540px;
+    background-color: #CEF2FF;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.textbox{
+    width:500px;
+    margin: 5px 0;
+    border: 0px;
+    background-color:#E1F7FF;
+}
+.singleList{
+    background-attachment: fixed;
+    background-color: #E1F7FF;
+    margin:5px;
+
+}
+.Todo{
+    display: block;
+    width:540px;
+}
+
+input[type="checkbox"] {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 2px solid black;
+    appearance: none;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+
+  input[type="checkbox"]:checked {
+    background:#3F48CC;
+    border: none;
+  }
