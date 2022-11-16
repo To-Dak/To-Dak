@@ -1,24 +1,24 @@
 body{
     background-color:#BBD7FE;
 }
-#main_section{
-    background-color: white;
-    width: 550px;
-}
 .list{
     width: 500px;
     list-style: circle inside;
     background-color:white;
     padding:15px;
 }
-.health{
-    display: inline-block;
+#main_section{
+    background-color: #F7F7F7;
+    width: 1500px;
+    height: 940px;
+    float: right;
 }
 .listSubmit{
-    width:540px;
-    background-color: #CEF2FF;
+    width:600px;
+    height: 45px;
+    background-color:#C0E5FA;
     border: none;
-    color: black;
+    color: #79B4DC;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -26,6 +26,7 @@ body{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    border-radius: 16px;
 }
 .textbox{
     width:500px;
@@ -34,27 +35,62 @@ body{
     background-color:#E1F7FF;
 }
 .singleList{
-    background-attachment: fixed;
+    display: flex;
+    width: 600px;
+    height: 45px;
     background-color: #E1F7FF;
+    border-radius: 16px;
     margin:5px;
-
+    align-items: center;
+}
+.input_List{
+    width: 600px;
+    height: 45px;
+    background-color:#C0E5FA;
+    border-radius: 16px;
+    margin:5px;
 }
 .Todo{
     display: block;
-    width:540px;
+    width: 600px;
+    margin: 30px;
+    background-color: white;
+    padding:30px;
+    padding-top: 20px;
 }
 
 input[type="checkbox"] {
-    width: 1rem;
-    height: 1rem;
+    width: 22px;
+    height: 22px;
     border-radius: 50%;
-    border: 2px solid black;
+    border: 2px solid #79B4DC;
     appearance: none;
     cursor: pointer;
     transition: background 0.2s;
-  }
+}
 
-  input[type="checkbox"]:checked {
-    background:#3F48CC;
+input[type="checkbox"]:checked {
+    background:#79B4DC;
     border: none;
-  }
+}
+
+#date{
+    color:#7AA3BE;
+    padding-left:70px;
+}
+#health{
+    padding:30px;
+    padding-top: 20px;
+    color:#476E88;
+    font-size: 30px;
+}
+.checks{
+    vertical-align: middle;
+}
+.textbox{
+    padding:2px;
+    width: 550px;
+    height: 27px;
+    margin-left: 5px;
+    font-size: 25px;
+}
